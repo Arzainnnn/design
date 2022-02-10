@@ -1,0 +1,101 @@
+body {
+  background-image: url(img/a1.png);
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+}
+
+.navbar {
+  width: 100%;
+  height: 15vh;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo {
+  width: 160px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.cart {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+nav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 60px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.content h1 {
+  font-size: 60px;
+  font-weight: 100;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  color: #232d60;
+}
+
+.content p {
+  font-size: 26px;
+  color: #6a7199;
+}
+
+.content {
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.content .btn {
+  display: inline-block;
+  background: linear-gradient(45deg, #87adfe, #ff77cd);
+  border-radius: 6px;
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  -webkit-box-shadow: 3px 8px 2px #504f50;
+          box-shadow: 3px 8px 2px #504f50;
+}
+
+.arrow {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.arrow img {
+  width: 40px;
+  margin-right: 25px;
+}
+
+.feature {
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 160px;
+}
+/*# sourceMappingURL=main.css.map */
